@@ -1,0 +1,3 @@
+[submodule "filesystem/Users/someuser/git/py_browser_history"]
+	path = filesystem/Users/someuser/git/py_browser_history
+	url = https://github.com/13alvone/py_browser_history
