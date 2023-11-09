@@ -55,7 +55,7 @@ M=$(date +%M)
 CURRENTDATE=`date +"%c"`
 if (( $TIMEOFF_H <= 10#$H && 10#$H < $TIMEON_H )); then 
   if [[ "$DEBUG" == "1" ]] ; then
-    echo "${CURRENTDATE}: enable roblox"
+    echo "${CURRENTDATE}: roblox should be enabled"
   fi
   if [[ "$DRYRUN" == "1" ]] ; then
     exit
@@ -67,7 +67,7 @@ if (( $TIMEOFF_H <= 10#$H && 10#$H < $TIMEON_H )); then
 elif (( 10#$H == $TIMEON_H )); then
   if (( 10#$M < $TIMEON_M )); then
     if [[ "$DEBUG" == "1" ]] ; then
-      echo "${CURRENTDATE}: enable roblox"
+      echo "${CURRENTDATE}: roblox should be enabled"
     fi
     if [[ "$DRYRUN" == "1" ]] ; then
       exit
@@ -78,7 +78,7 @@ elif (( 10#$H == $TIMEON_H )); then
     fi
   else
     if [[ "$DEBUG" == "1" ]] ; then
-      echo "${CURRENTDATE}: disable roblox"
+      echo "${CURRENTDATE}: roblox should be disabled"
     fi
     if [[ "$DRYRUN" == "1" ]] ; then
       exit
@@ -90,7 +90,7 @@ elif (( 10#$H == $TIMEON_H )); then
   fi
 else
   if [[ "$DEBUG" == "1" ]] ; then
-    echo "${CURRENTDATE}: disable roblox"
+    echo "${CURRENTDATE}: roblox should be disabled"
   fi
   if [[ "$DRYRUN" == "1" ]] ; then
     exit

@@ -8,12 +8,12 @@
     <string>seamus.simple.example</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/Users/imranali/autofw.sh</string>
+        <string>/Users/someuser/autofw.sh</string>
     </array>
     <key>StandardErrorPath</key>
-    <string>/Users/imranali/autofw.error.txt</string>
+    <string>/Users/someuser/autofw.error.txt</string>
     <key>StandardOutPath</key>
-    <string>/Users/imranali/autofw.log.txt</string>
+    <string>/Users/someuser/autofw.log.txt</string>
     <key>StartCalendarInterval</key>
     <array>
       <dict>

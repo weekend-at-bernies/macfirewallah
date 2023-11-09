@@ -8,12 +8,12 @@
     <string>seamux.simple.example</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/Users/imranali/autoroblox.sh</string>
+        <string>/Users/someuser/autoroblox.sh</string>
     </array>
     <key>StandardErrorPath</key>
-    <string>/Users/imranali/autoroblox.error.txt</string>
+    <string>/Users/someuser/autoroblox.error.txt</string>
     <key>StandardOutPath</key>
-    <string>/Users/imranali/autoroblox.log.txt</string>
+    <string>/Users/someuser/autoroblox.log.txt</string>
     <key>StartCalendarInterval</key>
     <array>
       <dict>
