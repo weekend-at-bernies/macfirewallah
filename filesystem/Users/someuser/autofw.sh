@@ -8,6 +8,7 @@
 #
 DEBUG=1
 DRYRUN=0
+# This is the time you want internet to become available:
 TIMEOFF_H=06
 
 WHOAMI=`whoami`
@@ -28,11 +29,11 @@ D=$(date +%a)
 
 if [[ "$D" == "Fri" || "$D" == "Sat" ]] ; then 
   #echo "$D"
-  # THIS IS WHEN YOU WANT FIREWALL TO COME ON FRI/SAT
+  # THIS IS WHEN YOU WANT FIREWALL TO COME ON FRI/SAT (IE. NO INTERNET)
   TIMEON_H=22
   TIMEON_M=00
 else
-  # AND OTHER DAYS
+  # AND OTHER DAYS (IE. NO INTERNET)
   TIMEON_H=22
   TIMEON_M=00
 fi

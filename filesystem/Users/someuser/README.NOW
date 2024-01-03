@@ -1,0 +1,21 @@
+- 'autofw.sh' is the internet ON/OFF control script
+- this script automatically runs periodically
+- it logs to: autofw.log.txt . look at the time stamps, you'll see how periodically
+  the script runs
+- set DRY_RUN to 1 if you want the control script to simulate what it would do (it logs
+  but doesn't actually do anything)
+- use 'test_internet.sh' to test if internet is accessible or not
+
+- 'autoroblox.sh' is the roblox ON/OFF control script
+- this script automatically runs periodically
+- it logs to: autoroblox.log.txt . look at the time stamps, you'll see how periodically
+  the script runs
+- CAVEATS:
+  - if internet is OFF (see above internet ON/OFF control script), then doesn't matter 
+    what roblox control script does, roblox WON'T be accessible
+  - TIKTOK is always OFF. FIXME: need a breakout script for tiktok control
+- set DRY_RUN to 1 if you want the control script to simulate what it would do (it logs
+  but doesn't actually do anything)
+- use 'test_roblox*.sh' to test if roblox is accessible or not
+- NOTE: web based access of apps (eg roblox and tiktok) through a laptop is still subject
+  to apple screen time! this is good!

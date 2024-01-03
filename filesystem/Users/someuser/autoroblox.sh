@@ -8,6 +8,7 @@
 #
 DEBUG=1
 DRYRUN=0
+# ROBLOX IS ALLOWED FROM THIS TIME:
 TIMEOFF_H=10
 
 HOSTS_ROBLOX_ENABLED="/Users/imranali/hosts.roblox.enabled"
