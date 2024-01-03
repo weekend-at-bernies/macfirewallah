@@ -19,3 +19,9 @@
 - use 'test_roblox*.sh' to test if roblox is accessible or not
 - NOTE: web based access of apps (eg roblox and tiktok) through a laptop is still subject
   to apple screen time! this is good!
+
+All of this junk is under git version control here:
+/Users/imranali/git/macfirewallah/filesystem/Users/someuser
+
+$ git commit -am "some comment"
+$ git push
