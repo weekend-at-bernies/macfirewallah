@@ -25,3 +25,11 @@ All of this junk is under git version control here:
 
 $ git commit -am "some comment"
 $ git push
+
+
+TO DO
+-----
+
+- autoroblox.sh should be more generic. Maybe 'autoblockwebsite.sh' and
+  have a list of websites that you can TRUE/FALSE.
+- at time of block, it dynamically generates a hosts.file
