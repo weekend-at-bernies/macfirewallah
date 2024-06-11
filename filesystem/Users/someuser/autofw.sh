@@ -8,8 +8,10 @@
 #
 DEBUG=1
 DRYRUN=0
-# This is the time you want internet to become available:
-TIMEOFF_H=06
+# This is the time you want internet to become available.
+# WARNING: don't use the '0X' form to specify single digit time. 
+# Ie. to specify 8am, DON'T write "08". Instead write: "8".
+TIMEOFF_H=6
 
 WHOAMI=`whoami`
 if [[ "$WHOAMI" != "root" ]] ; then

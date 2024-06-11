@@ -9,6 +9,8 @@
 DEBUG=1
 DRYRUN=0
 # ROBLOX IS ALLOWED FROM THIS TIME:
+# WARNING: don't use the '0X' form to specify single digit time.    
+# Ie. to specify 8am, DON'T write "08". Instead write: "8".
 TIMEOFF_H=10
 
 HOSTS_ROBLOX_ENABLED="/Users/imranali/hosts.roblox.enabled"
