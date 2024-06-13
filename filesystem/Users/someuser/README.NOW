@@ -1,35 +1,23 @@
 - 'autofw.sh' is the internet ON/OFF control script
 - this script automatically runs periodically
 - it logs to: autofw.log.txt . look at the time stamps, you'll see how periodically
-  the script runs
-- set DRY_RUN to 1 if you want the control script to simulate what it would do (it logs
+  the script runs. By default, every 15 mins
+- set DRY_RUN to 1 if you want the script to simulate what it would do (it logs
   but doesn't actually do anything)
 - use 'test_internet.sh' to test if internet is accessible or not
 
-- 'autoroblox.sh' is the roblox ON/OFF control script
+- 'autoroblox.sh' is the target domains ON/OFF control script
 - this script automatically runs periodically
 - it logs to: autoroblox.log.txt . look at the time stamps, you'll see how periodically
-  the script runs
+  the script runs. By default, every 15 mins
 - CAVEATS:
   - if internet is OFF (see above internet ON/OFF control script), then doesn't matter 
-    what roblox control script does, roblox WON'T be accessible
-  - TIKTOK is always OFF. FIXME: need a breakout script for tiktok control
-- set DRY_RUN to 1 if you want the control script to simulate what it would do (it logs
+    what this script does, NO domain will be accessible coz the internet is off!
+- set DRY_RUN to 1 if you want the script to simulate what it would do (it logs
   but doesn't actually do anything)
-- use 'test_roblox*.sh' to test if roblox is accessible or not
-- NOTE: web based access of apps (eg roblox and tiktok) through a laptop is still subject
-  to apple screen time! this is good!
 
 All of this junk is under git version control here:
 /Users/imranali/git/macfirewallah/filesystem/Users/someuser
 
 $ git commit -am "some comment"
 $ git push
-
-
-TO DO
------
-
-- autoroblox.sh should be more generic. Maybe 'autoblockwebsite.sh' and
-  have a list of websites that you can TRUE/FALSE.
-- at time of block, it dynamically generates a hosts.file
