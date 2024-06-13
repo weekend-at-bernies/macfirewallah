@@ -23,6 +23,10 @@ fi
 domains=(
   "www.tiktok.com"
   "www.roblox.com"
+  "www.instagram.com"
+  "www.youtube.com/shorts"
+  "discordapp.com"
+  "discord.com"
 #  "www.money.com"
 )
 

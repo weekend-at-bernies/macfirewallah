@@ -21,3 +21,11 @@ All of this junk is under git version control here:
 
 $ git commit -am "some comment"
 $ git push
+
+---
+
+IMPROVEMENTS:
+
+- 'autofw.sh' should be renamed: 'enableinternet.sh'
+  - logging should be improved (make more in line with below)
+- 'autoroblox.sh' should be renamed: 'enabledomains.sh'
